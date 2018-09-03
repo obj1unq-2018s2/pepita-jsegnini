@@ -1,0 +1,8 @@
+import roque.*
+import pepita.*
+import comidas.*
+
+test "entrenamiento by Roque" {
+	roque.entrenar()
+	assert.equals(365, pepita.energia())
+}
