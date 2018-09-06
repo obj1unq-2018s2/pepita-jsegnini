@@ -51,6 +51,7 @@ object canelones {
 	var queso = false
 	var salsa = false
 	method energiaPorGramo() {
+		// TODO No hagas las cuentas vos, dejá que las haga la computadora que para eso está.
 		if (queso and salsa) {return 32}
 		else if (queso) {return 27}
 		else if (salsa) {return 25}
